@@ -1,0 +1,834 @@
+/*
+* Theme Name: Coming Soon Under construction Template
+* File name: style.css
+* Theme URL: http://www.codepox.com/demo/underconstruction
+* Description: Exit - Awesome Coming Soon Under Construction Responsive template
+* Author: A.T.M Ruhul Amin
+* Author URL: http://www.codepox.com
+* Support: ruhulmus@gmail.com
+* Version: 1.0
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Exo:400,700,100);
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+/* Reset
+=====================================================================*/
+*{padding:0;margin:0;}
+body{
+	background:#ffffff;
+	font-family: 'Raleway',sans-serif;
+	overflow-x: hidden;
+}
+
+a { 
+	color:#ffffff; text-decoration:none; 
+}
+a:hover { 
+	color:#ffffff;text-decoration:none; 
+}
+a:focus {
+	color:#ffffff;
+	outline: medium none;
+	outline-offset: 0;
+}
+
+/* Headings */
+h1          { font-size:2em; font-weight:normal; line-height:1.15; }
+h2          { font-size:1.5em; line-height:1.25; margin-bottom:.45em; }
+h3          { font-size:1.35em; line-height:1.25; margin-bottom:.45em; }
+h4          { font-size:1.05em; line-height:1.35; margin-bottom:.45em; }
+h5          { font-size:1.05em; line-height:1.35; margin-bottom:.45em; }
+h6          { font-size:1em; line-height:1.35; margin-bottom:1em; }
+
+/* Forms */
+form          { display:inline; }
+fieldset      { border:0; }
+legend        { display:none; }
+
+/* Table */
+table         { border:0; /*border-collapse:collapse;*/ border-spacing:0; empty-cells:show; font-size:100%; }
+caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
+
+/* Content */
+p             { margin:0 0 1em; }
+strong        { font-weight:bold; }
+address       { font-style:normal; line-height:1.35; }
+cite          { font-style:normal; }
+q,
+blockquote    { quotes:none; }
+q:before,
+q:after       { content:''; }
+small         { font-size:1em; }
+big           { font-size:1.15em; }
+/*sup           { font-size:1em; vertical-align:top; }*/
+
+/* Lists */
+ul,ol         { list-style:none; }
+
+
+
+/* Show Messages
+=====================================================================*/
+.gen{
+	background: none repeat scroll 0 0 #fff;
+	color: #008900;
+	font-size: 20px;
+	margin: 15px auto;
+	padding: 5px;
+	text-align: center;
+}
+.err{
+	background: none repeat scroll 0 0 #FF0000;
+	color: #008900;
+	font-size: 20px;
+	margin: 15px auto;
+	padding: 5px;
+	text-align: center;
+}
+
+
+/*------------------------------------------------------------------
+[ Cloud]
+*/
+
+.cloud {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.cloud:before {
+	display: block;
+	content: ' ';
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.5;
+	background-color: #000;
+}
+
+
+/* Section Title
+=====================================================================*/
+.section-title{
+	margin-bottom: 35px;
+	margin-top: 80px;
+	text-align: center;
+}
+.section-title h2{
+	font-size: 26px;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	margin: 0 0 10px;
+	padding: 0 0 15px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+}
+.section-title h2:before {
+	border: 2px solid #59a3fc;
+	bottom: 0;
+	content: "";
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	width: 100px;
+}
+.section-title p{
+	color: #9c9c9c;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+/* Site Header Part
+=====================================================================*/
+.overlay {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+}
+
+.site_logo{
+	margin-top: 50px;
+	text-align: center;
+}
+.menu_area{
+	/*background: url("images/menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+	background:none repeat scroll 0 0 rgba(25, 25, 25, 0.95);
+	bottom: 0;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+}
+.stick_menu{
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.header_part{
+	background: url("images/background.jpg") repeat scroll center center / cover  rgba(0, 0, 0, 0);
+	overflow: hidden;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.logo{}
+.active{
+	background: url("images/active-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	color: #59a3fc !important;
+}
+.logo a{
+	color: #ffffff !important;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	font-family:"Aldrich",sans-serif;
+}
+.site_title{}
+.site_title h1{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	margin: 30px auto;
+	text-align: center;
+	font-family:"Aldrich",sans-serif;
+}
+.site_title p{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	/* font-family:"Aldrich",sans-serif; */
+}
+
+
+
+/* Site Countdown Part
+=====================================================================*/
+.countdown{
+	color: #fff;
+	margin: 40px auto 10px;
+	width: 68%;
+}
+.countdown_row{
+	display: block;
+	margin-left: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+/*
+.countdown_section{
+	margin: 15px 30px auto;
+	padding: 30px 12px;
+	width: 140px;
+}
+*/
+
+/* ==============================================
+	Countdown
+=============================================== */
+
+.countdown_row {
+	display: block;
+}
+.countdown_section {
+	color: #009bdf;
+	font-size: 20px;
+	text-align: center;
+	text-transform: capitalize;
+	display:inline-block;
+	padding:5px 40px;
+	line-height: 12px;
+	position: relative;
+	font-family:"Aldrich",sans-serif;
+	background: none repeat scroll 0 0 transparent;
+}
+.countdown_section:after{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 1px;
+	background: url("images/img.png");
+	left: 0px;
+	top: 0px;
+}
+.countdown_section:first-child:after {	
+	background: transparent;
+}
+.countdown_amount {
+	color: #009bdf;
+	display: block;
+	font-size: 75px;
+	font-weight: 500;
+	letter-spacing: normal;
+	line-height: 60px;
+}
+.countdown_row{
+	color:#222;
+}
+
+.countdown-small{
+	color: #fff;
+	margin: 0px 0px;
+	padding:7px 0px 4px;
+	width: 39%;
+	float:left;
+}
+.countdown-small .countdown_row{
+	display: block;
+	margin-left: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+.countdown-small .countdown_section {
+	color: #009bdf;
+	font-size: 10px;
+	text-align: center;
+	text-transform: capitalize;
+	display:inline-block;
+	padding:3px 20px;
+	line-height: 10px;
+	position: relative;
+	font-family:"Aldrich",sans-serif;
+	background: none repeat scroll 0 0 transparent;
+}
+.countdown-small .countdown_section:after{
+	position: absolute;
+	content: "";
+	height: 90%;
+	width: 1px;
+	background: url("images/img.png");
+	left: 0px;
+	top: 0px;
+}
+.countdown-small .countdown_section:first-child:after {	
+	background: transparent;
+}
+.countdown-small .countdown_amount {
+	color: #009bdf;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: normal;
+	line-height: 10px;
+}
+/* Services Section
+=====================================================================*/
+.services_section{
+	overflow: hidden;
+	background:#262626;
+	z-index:999;
+}
+.about{
+	margin: 0 auto;
+	padding: 60px 20px;
+}
+.about h2{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.about p{
+	margin: 20px;
+	text-align: center;
+}
+.welcome_part{
+	margin: 50px auto 80px;
+}
+.welcome_icon{
+	background: none repeat scroll 0 0 transparent;
+	border: 2px solid #59a3fc;
+	border-radius: 100%;
+	color: #59a3fc;
+	margin: 0 auto;
+	padding: 35px;
+	text-align: center;
+	width: 140px;
+}
+.welcome_part h2{
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.welcome_part p{
+	color: #e5e5e5;
+	font-size: 14px;
+	text-align: center;
+}
+/* - Team Section
+---------------------------------------------------------------------- */
+.team_section{
+	overflow: hidden;
+	background:#262626;
+}
+
+.team-container .col-sm-4{
+	padding:60px 15px 0 15px;
+}
+.team-container .team-member{
+	max-width:245px;
+	margin:auto;
+	position:relative;
+	overflow:hidden;
+}
+
+
+.team-container figcaption{
+	text-align:center;
+	text-transform:uppercase;
+	width:100%;
+	height:110px;
+	border-top-color:transparent;
+	margin:0;
+}
+.team-container figcaption h4{
+	font-size:22px;
+	font-weight:700;
+	padding-top:20px;
+}
+.team-container .member-name {
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 0;
+	padding: 26px 10px 5px 10px;
+	font-family:"Aldrich",sans-serif;
+}
+.team-container figcaption p{
+	font-size: 1.125em;
+	font-family:"Aldrich",sans-serif;
+}
+.team-container .social-buttons{
+	display:inline-block;
+	margin:auto;
+	text-align:center;
+	width:100%;
+}
+
+.team-member .social-btn-container,
+.team-member .social-btn-container .social-btn-box{
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+
+.team-member .social-btn-container {
+	position: absolute;
+	top: 0px;
+	margin: 0 auto;
+	left: 0;
+}
+.team-member:hover .social-btn-container{
+	background: rgba(0,0,0,.5);
+}
+.team-member .social-btn-container .team-socail-btn{
+	overflow: hidden;
+	position: relative;
+	width:245px;
+	height: 230px;
+}
+.team-member .social-btn-container .social-btn-box{
+	position: absolute;
+
+}
+.team-member .social-btn-container .facebook-btn-container{
+	bottom: 220px;
+	right: 230px;
+}
+.team-member .social-btn-container .twitter-btn-container{
+	bottom: 220px;
+	left: 230px;
+}
+.team-member .social-btn-container .linkedin-btn-container{
+	top: 220px;
+	right: 230px;
+}
+.team-member .social-btn-container .github-btn-container{
+	top: 220px;
+	left: 230px;
+}
+
+.team-member:hover .social-btn-container .facebook-btn-container{
+	bottom: 115px;
+	right: 122px;
+}
+.team-member:hover .social-btn-container .twitter-btn-container{
+	bottom: 115px;
+	left: 122px;
+}
+.team-member:hover .social-btn-container .linkedin-btn-container{
+	top: 115px;
+	right: 122px;
+}
+.team-member:hover .social-btn-container .github-btn-container{
+	top: 115px;
+	left: 122px;
+}
+.team-container .social-buttons a{
+	color:#fff;
+	width:24px;
+	height:24px;
+	display:inline-block;
+	font-size:24px;
+	text-align:center;
+}
+.team-container .team-member figure,
+.team-container .team-member figcaption,
+.team-container .team-member img,
+.team-container .team-member .social-buttons{
+	
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.team-container .team-member:hover figure{
+	background-color:#3498db;
+	color:#fff;
+}
+.team-container .team-member:hover figcaption{
+	border-color:#3498db;
+	color:#fff;
+}
+
+.team-container .team-member:hover .social-buttons{
+	top:90px;
+}
+/* - Team Section Section End 
+---------------------------------------------------------------------- */
+
+/* Email Subscribe Section
+=====================================================================*/
+.email_subscribe_section{
+	background:#262626;
+	color: #fff;
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+.email_subscriber_head{
+	margin: 100px auto 30px;
+}
+.email_subscriber_head h2{
+	font-size: 35px;
+	text-align: center;
+}
+.email_subscriber_head p{
+	text-align: center;
+}
+.email_subscribe_form_part{
+	margin-bottom: 80px;
+	text-align: center;
+}
+.email_input_box{
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 30px;
+	color: #000;
+	display: inline;
+	font-size: 15px;
+	height: auto;
+	margin: 20px 30px;
+	padding: 15px;
+	width: 40%;
+}
+.email_submit_box{
+	border-radius: 30px;
+	margin-top: -5px;
+	padding: 15px 40px;
+}
+.email_submit_box:focus, .email_submit_box:active:focus, .email_submit_box.active:focus {
+  outline: medium none;
+  outline-offset: -2px;
+}
+.email_subscribe_section .form-control{
+margin:20px auto;
+width:60% !important;
+}
+
+
+/* Contact Section
+=====================================================================*/
+.contact_section{
+	overflow: hidden;
+	background:#262626;
+	color: #fff;
+}
+.contact_head{
+	padding: 80px 0 30px;
+	text-align: center;
+}
+.contact_head h2{
+	font-size: 35px;
+	font-weight: bold;
+}
+.contact_head p{}
+.address_part{}
+.address{
+	margin: 10px auto;
+	font-weight: 400;
+}
+.phone{
+	margin: 10px auto;
+	font-weight: 400;
+}
+.email{
+	margin: 10px auto;
+	font-weight: 400;
+}
+.social_icons{}
+.social_icons ul{}
+.social_icons ul li{
+	display: inline;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.social_icons ul li a{
+	font-size: 40px;
+}
+.address_part i{
+margin-right:5px;
+}
+.contact_form{
+	margin-bottom: 60px;
+}
+.contact_input_box{
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid #a8a8a8;
+	border-radius: 30px;
+	color: #fff;
+	height: auto;
+	margin-bottom: 30px;
+	padding: 15px;
+	resize: none;
+}
+.contact_button{
+	border-radius: 30px;
+	font-size: 18px;
+	height: auto;
+	padding: 10px 25px;
+}
+.contact_button:focus, .contact_button:active:focus, .contact_button.active:focus {
+	outline: medium none;
+	outline-offset: -2px;
+}
+
+
+/* Social Nav  */
+
+
+.social-nav {
+	position:fixed;
+	top: 0px;
+	right: 40px;
+}
+.social-nav ul {margin: 0; padding:0;}
+.social-nav ul li{
+	list-style: none;
+	display:block;
+	float: right;
+	background: #393939;
+	padding:60px 10px 5px 10px;
+	margin: 1px;
+	opacity: .5;
+}
+.social-nav ul li:hover {opacity: 1;}
+
+
+.social-nav {
+	position:absolute;
+	top: 0px;
+	right: 40px;
+}
+.main-nav ul {margin: 0; padding:0;}
+.main-nav ul li{
+	list-style: none;
+	display:block;
+	float: left;
+	background: #393939;
+	padding:5px 5px 10px 10px;
+	margin: 1px;
+	opacity: .5;
+	
+	margin-top:30px;
+}
+.main-nav ul li a{
+ -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+	width:100px;
+}
+
+.main-nav ul li:hover {opacity: 1;}
+.rotate li{
+top:0;
+}
+
+
+
+/* 8 - Footer Section  
+---------------------------------------------------------------------- */
+#footer-section{
+	width: 100%;
+	min-height: 80px;
+	color: #000;
+}
+#footer-section p{
+	margin: 0;
+	padding: 25px 15px; 
+	text-align: center;
+	line-height: 30px;
+	color: #000;
+}
+#footer-section p a{
+	color: #3498db;
+}
+/* 8 - Footer Section End 
+---------------------------------------------------------------------- */
+
+
+
+/* - Social Button
+------------------------------------------ */
+.social-btn-container{
+	text-align:center;
+	margin:50px auto 0 auto;
+}
+.social-btn-container .social-btn-box{
+	display:inline-block;
+	width:60px;
+	height:60px;
+
+	-webkit-transform:rotate(45deg);
+	   -moz-transform:rotate(45deg);
+	    -ms-transform:rotate(45deg);
+	     -o-transform:rotate(45deg);
+	        transform:rotate(45deg);
+
+	border:1px solid #fff;
+
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	    -ms-border-radius:5px;
+	     -o-border-radius:5px;
+	        border-radius:5px;
+
+	margin:15px;
+	position:relative;
+	overflow:hidden;
+}
+.social-btn-container .social-btn-box a{
+	color:#fff;
+	font-size:26px;
+	line-height:80px;
+	display:inline-block;
+	width:80px;
+	height:80px;
+	position:absolute;
+	top:-10px;
+	left:-10px;
+
+	-webkit-transform:rotate(-45deg);
+	   -moz-transform:rotate(-45deg);
+	    -ms-transform:rotate(-45deg);
+	     -o-transform:rotate(-45deg);
+	        transform:rotate(-45deg);
+}
+.social-btn-box,
+.social-btn-box a{
+	
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.social-btn-box:hover{
+	border-color:transparent;
+}
+.social-btn-box .facebook-btn:hover{
+	background:#3B5998;
+	color: #fff;
+}
+.social-btn-box .twitter-btn:hover{
+	background:#55ACEE;
+	color: #fff;
+}
+.social-btn-box .linkedin-btn:hover{
+	background:#0077b5;
+	color: #fff;
+}
+.social-btn-box .google-plus-btn:hover{
+	background:#db514f;
+	color: #fff;
+}
+.social-btn-box .youtube-btn:hover{
+	background:#cc181e;
+	color: #fff;
+}
+.social-btn-box .github-btn:hover{
+	background:#2b2e30;
+	color: #fff;
+}
+.social-btn-box .a:hover{
+	background:#3498db;
+	color: #fff;
+}
+/* 2.2 - Social Button
+------------------------------------------ */
+/* media query */
+@media only screen and (min-width: 981px) and (max-width: 1080px) {
+	.countdown-small{
+	padding:12px 0px 4px !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+	.social-nav{
+	display:none;
+	}
+	.countdown-small{
+	display:none !important;
+	}
+	.countdown_section:after{
+		background: none;
+	}
+	.countdown_section {
+		font-size: 17px;
+		padding:5px 25px;
+		line-height: 12px;
+	}
+	.countdown_amount {
+		font-size: 60px;
+		line-height: 50px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.social-nav{
+	display:none;
+	}
+	.countdown-small{
+	display:none;
+	}
+	.countdown_section:after{
+		background: none;
+	}
+	
+    .address_part{
+	text-align:center;
+	}
+}
