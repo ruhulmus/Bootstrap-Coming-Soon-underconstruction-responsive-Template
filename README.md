@@ -20,7 +20,7 @@ COMING SOON UNDER CONSTRUCTION RESPONSIVE TEMPLATE ![view](https://github.com/ru
 [Documentation Link](https://github.com/ruhulmus/Responsive-Template-Documentation)
 
 
-N.B: This Template i was making for Themeforest. Now it's public for Everyone. Enjoy it !! :) 
+*N.B: This Template i was making for Themeforest. Now it's public for Everyone. Enjoy it !! :) 
 
 
 Template Preview ![view](https://github.com/ruhulmus/Bootstrap-Coming-Soon-underconstruction-responsive-Template/blob/main/COMING_SOON_CONSTRUCTION%20RESPONSIVE.png)
