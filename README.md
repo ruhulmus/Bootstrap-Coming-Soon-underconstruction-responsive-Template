@@ -51,3 +51,16 @@
 
 Template Preview ![view](https://github.com/ruhulmus/Bootstrap-Coming-Soon-underconstruction-responsive-Template/blob/main/COMING_SOON_CONSTRUCTION%20RESPONSIVE.png)
 
+### 🤝  Contributing to `Bootstrap-Coming-Soon-underconstruction-responsive-Template`
+Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
+
+If you wish to contribute, you can work on any features or create one on your own. After adding your code, please send me a Pull Request.
+
+> Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details of my [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to me.
+
+# 🛡️ License
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+
+<h3 align="center">
+A ⭐️ to <b>UNDER CONSTRUCTION RESPONSIVE TEMPLATE</b> is must as a motivation booster.
+</h3>
